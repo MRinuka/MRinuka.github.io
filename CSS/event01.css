@@ -62,7 +62,7 @@ img {
 
 #navbar {
     display: flex;
-    background: url(../Assets/Screen Shot 2023-09-08 at 9.16.26 PM_28.png);
+    background: url(../Assets/Screen\ Shot\ 2023-09-08\ at\ 9.16.26\ PM_28.png);
     color: #fff;
     overflow: auto;
 }
@@ -73,7 +73,7 @@ img {
 }
 
 .footer {
-    background: url(../Assets/Screen Shot 2023-09-08 at 9.16.26 PM_28.png);
+    background: url(../Assets/Screen\ Shot\ 2023-09-08\ at\ 9.16.26\ PM_28.png);
     color: #fff;
     display: block;
     flex-direction: row;
