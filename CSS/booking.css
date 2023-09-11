@@ -1,0 +1,55 @@
+.form-2,
+.form {
+    align-items: center;
+    margin: 40px;
+    background-color: moccasin;
+    height: 30px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    transition: background-color 2s ease-out 100ms;
+}
+
+.form-2:hover,
+.form:hover {
+    background-color: rgb(189, 218, 243);
+}
+
+
+
+@media (max-width: 768px) {
+    .form-2,
+    .form {
+        height: 50%;
+        width: 100%;  
+        margin: 10px auto;  
+        padding: 10px;  
+        flex-direction: column;  
+        align-items: flex-start; 
+        background-color: moccasin; 
+    }
+
+    .form-2:hover,
+    .form:hover {
+        background-color: lightgreen; 
+    }
+
+    .form label,
+    .form select,
+    .form-2 label,
+    .form-2 select {
+        display: inline-block; 
+        margin: 5px 0; 
+    }
+
+
+   
+}
+
+
+
+
+
+
+
