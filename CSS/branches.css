@@ -1,0 +1,18 @@
+.footer {
+    background: goldenrod;
+    color: #fff;
+    display: block;
+    flex-direction: row;
+    margin-top: 3000px;
+    
+}
+
+.foot {
+    list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        margin-top: 380px;
+    }
+}

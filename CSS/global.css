@@ -1,0 +1,344 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility */
+.logo {
+    font-family: cursive;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.lead {
+    font-size: 18px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: gold;
+    color: #333;
+}
+
+.about-btn {
+    padding-top: 40px;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    background: wheat;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    background: gold;
+    color: #333;
+}
+
+.footer {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 20px;
+  }
+  
+
+  
+
+
+
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* main styling */
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    margin: 10px 0;
+    padding: 40px;
+    height: 450px;
+}
+/* navbar */
+#navbar {
+    display: flexbox;
+    background: goldenrod;
+    color: #fff;
+    overflow: auto;
+    
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* showcase */
+#showcase {
+    background: url(../Assets/pexels-pok-rie-130879.jpg) no-repeat
+    center center/cover;
+    height: 500px;
+}
+
+.showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    width: 100%;
+    
+}
+
+.showcase-content h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    display: inline;
+    float: left;
+    width: 50%;
+    background: url(../Assets/Screen\ Shot\ 2023-08-26\ at\ 3.27.13\ PM.png);
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 1.48.15\ PM.png);
+}
+
+#home-info-2 {
+    height: 400px;
+}
+
+#home-info-2 .rest-img {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 2.07.48\ PM.png);
+}
+
+#home-info-2 .info-content {
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 2.07.48\ PM.png);
+    list-style-position: inside;
+}
+
+#home-info-3 {
+    height: 400px;
+}
+
+#home-info-3 .info-img {
+    display: inline;
+    float: left;
+    width: 50%;
+    background: url(../Assets/Screen\ Shot\ 2023-08-29\ at\ 1.36.34\ PM.png);
+    min-height: 100%;
+}
+
+#home-info-3 .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background: url(../Assets/Screen\ Shot\ 2023-08-27\ at\ 1.48.15\ PM.png) no-repeat;
+    list-style-position: inside;
+}
+
+footer {
+    background: goldenrod;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Branch Page */
+#br-content-1 .branch-img {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+#br-content-1 .branch-text {
+    display: inline;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 70px 30px;
+    background: rgb(142, 214, 237);
+    margin: 20px 90px;
+}
+
+table, th, td {
+    border:1px solid black;
+    background: #fff;
+  }
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    #showcase {
+        background: url(../Assets/pexels-pok-rie-130879.jpg) no-repeat center center/cover;
+        height: 400px; 
+    }
+
+    .showcase-content {
+        padding-top: 90px; 
+    }
+
+    .showcase-content h1 {
+        font-size: 30px;
+        margin-bottom: 10px; 
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    #showcase {
+        background: url(../Assets/pexels-pok-rie-130879.jpg) no-repeat center center/cover;
+        height: 350px; 
+    }
+
+    .showcase-content {
+        padding-top: 50px; 
+    }
+
+    .showcase-content h1 {
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #home-info, #home-info-2, #home-info-3 {
+        height: auto; 
+    }
+
+    #home-info .info-img, #home-info-2 .rest-img, #home-info-3 .info-img {
+        float: none; 
+        width: 100%; 
+        background-size: cover; 
+    }
+
+    #home-info .info-content, #home-info-2 .info-content, #home-info-3 .info-content {
+        float: none; 
+        width: 100%; 
+        padding: 30px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #br-content-1 .branch-img,
+    #br-content-1 .branch-text {
+        float: none; 
+        width: 100%;
+        margin: 0; 
+        background: none;
+    }
+
+    #br-content-1 .branch-text {
+        padding: 30px; 
+    }
+}
+
+/* Media query for screens with a maximum width of 480px (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    #br-content-1 .branch-text {
+        padding: 20px; 
+        margin-bottom: 10px;
+    }
+
+    .branch-img {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+    
+
+    
+}
