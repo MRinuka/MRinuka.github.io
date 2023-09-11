@@ -40,13 +40,13 @@ img {
 
 #hall {
     margin-top: 20px;
-    background: url(../Assets/pexels-trung-nguyen-5096304.jpg) no-repeat center center/cover;
+    background: url(../Assets/pexels-trung-nguyen-5096304_9.jpg) no-repeat center center/cover;
     height: 500px;
 }
 
 #food {
     margin-top: 20px;
-    background: url(../Assets/pexels-matheus-bertelli-16120221.jpg) no-repeat center center/cover;
+    background: url(../Assets/pexels-matheus-bertelli-16120221_7.jpg) no-repeat center center/cover;
     height: 500px;
 }
 
@@ -62,7 +62,7 @@ img {
 
 #navbar {
     display: flex;
-    background: url(../Assets/Screen\ Shot\ 2023-09-08\ at\ 9.16.26\ PM.png);
+    background: url(../Assets/Screen Shot 2023-09-08 at 9.16.26 PM_28.png);
     color: #fff;
     overflow: auto;
 }
@@ -73,7 +73,7 @@ img {
 }
 
 .footer {
-    background: url(../Assets/Screen\ Shot\ 2023-09-08\ at\ 9.16.26\ PM.png);
+    background: url(../Assets/Screen Shot 2023-09-08 at 9.16.26 PM_28.png);
     color: #fff;
     display: block;
     flex-direction: row;
