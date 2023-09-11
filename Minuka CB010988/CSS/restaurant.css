@@ -1,0 +1,161 @@
+.sl {
+  display: inline;
+  float: none; 
+  margin-top: 90px;
+  margin-right: 50px;
+  background: lightgreen;
+  padding: 40px;
+  align-items: center;
+  align-self: center;
+  width: 700px;
+}
+
+.sl-rest {
+   display: flex;
+   margin: 20px;
+}
+
+.sl-food {
+   float: none;
+   display: inline;
+   margin-right: 250px;
+   width: 500px;
+}
+
+.east-asian {
+   margin: 20px;
+   display: flex;
+   padding: 20px;
+   float: none;
+}
+
+.asian-food {
+   float: none;
+   display: inline;
+   width: 500px;
+   margin-left: 250px;
+}
+
+.asian {
+   display: inline;
+   float: none; 
+   margin-top: 90px;
+   margin-right: 50px;
+   background: rgba(141, 107, 107, 0.783);
+   padding: 40px;
+   align-items: center;
+   align-self: center;
+   width: 600px;
+}
+
+.europe {
+   margin-top: 20px;
+   display: flex;
+   padding: 20px;
+   float: none;
+}
+
+.europe-food {
+   float: none;
+   display: inline;
+   width: 500px;
+   margin-right: 250px;
+}
+
+.european {
+   display: inline;
+   float: none; 
+   margin-top: 90px;
+   margin-right: 20px;
+   background: rgba(192, 22, 22, 0.862);
+   padding: 40px;
+   align-items: center;
+   align-self: center;
+   width: 600px;
+}
+
+.footer {
+   background-color: goldenrod;
+   color: #fff;
+   padding: 20px;
+}
+
+.event01 {
+ text-align: center;
+ margin-left: 200px;
+ margin-top: 30px;
+ background: url(../Assets/Screen\ Shot\ 2023-09-10\ at\ 4.00.53\ PM.png);
+ width: 500px;
+ height: 200px;
+ color: white;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 30px;
+}
+
+.links {
+ display: flex;
+ flex-direction: row;
+}
+
+.event01:hover {
+ transform: scale(1.5);
+}
+
+.event02:hover {
+ transform: scale(1.5);
+}
+
+.event02 {
+ text-align: center;
+ background: url(../Assets/Screen\ Shot\ 2023-09-10\ at\ 4.09.09\ PM.png);
+ width: 500px;
+ height: 200px;
+ margin-top: 30px;
+ margin-left: 40px;
+ margin-bottom: 40px;
+ color: white;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 30px;
+}
+
+.footer ul {
+ list-style: none;
+}
+
+.sl-link:hover {
+ color: blue;
+ text-decoration: underline;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+
+ .sl,
+ .asian,
+ .european,
+ .event01,
+ .event02 {
+   width: 100%;
+   margin: 10px;
+   padding: 20px;
+ }
+
+ .sl-rest, 
+ .east-asian,
+ .europe{
+  flex-direction: column;
+ }
+
+ .sl-food,
+ .asian-food,
+ .europe-food {
+   width: 100%;
+   margin: 10px;
+ }
+
+ .sl-link {
+   margin-left: 0;
+ }
+}
+
+ 
