@@ -120,9 +120,12 @@
                             <label for="extra_bed" class="form-label">Extra Bed</label>
                             <input type="number" min="0" max="2" class="form-control" id="extra_bed"
                                 x-model="$store.user.reservation.extra_bed" />
+                    
                         </div>
+                    </form>
                 </div>
                 <div class="d-flex">
+                    <form x-on:submit="$store.user.updateUser">
 
                         <!-- adventures -->
                         <div class="mb-3">
