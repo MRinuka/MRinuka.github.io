@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(pexels-asad-photo-maldives-1320684\ \(1\).jpg);
+}
+
+.form {
+    background: url(pexels-fwstudio-131683.jpg);
+
+}
+
+.logo {
+    font-family: cursive;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.btn,
+.about-btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    color: #fff;
+    background: black;
+}
+
+.about-btn {
+    color: #333;
+    background: wheat;
+    padding-top: 40px;
+}
+
+.btn:hover,
+.about-btn:hover {
+    background: gold;
+    color: #333;
+}
+
+.footer {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    margin: 10px 0;
+    padding: 40px;
+    height: 450px;
+}
+
+#navbar {
+    display: flex;
+    background: goldenrod;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .btn,
+    .about-btn {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    img {
+        padding: 20px;
+        height: auto;
+    }
+
+    #navbar ul {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #navbar ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    #navbar h1,
+    #navbar ul li a {
+        padding: 10px;
+    }
+}
