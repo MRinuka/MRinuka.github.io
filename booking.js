@@ -254,7 +254,7 @@ document.addEventListener('alpine:init', () => {
             this.$watch('booking.promo_code', (value) => {
                 if (this.coupons.includes(value)) {
                     
-                    this.booking.discount_percentage = 10;
+                    this.booking.discount_percentage = 5;
                 } else {
                     this.booking.discount_percentage = 0;
                 }
